@@ -1,0 +1,21 @@
+rails new my_app / Crear  Nuevo Proyecto
+
+
+rails generate
+Uso: rails generate GENERATOR [args] [options] / Para generar 
+controladores, modelos o vistas.
+
+rails db:migrate / para migrar modelos a la base de datos
+
+rails server / para inicializar el server del proyecto
+
+rails c / Para entrar en la consola e interactuar con los objetos, Ej:
+dato=Dato.find(:id)
+
+dato.save /  para almacenar datos en la base de datos.
+
+dato.delete / Para borrarlo
+
+rails routes / para ver las rutas
+
+esto es solo un resumen existen muchos comandos mas...
